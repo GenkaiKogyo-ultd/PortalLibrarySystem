@@ -1,0 +1,16 @@
+{
+  "name": "com.genkaikogyo-ultd.wppls",
+  "displayName": "PortalLibrarySystem",
+  "version": "2.0.0",
+  "description": "Portal Library System for VRChat.",
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.7.5"
+  },
+  "author": {
+    "name": "wacky",
+    "email": "wacky612@gmail.com"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {}
+}
