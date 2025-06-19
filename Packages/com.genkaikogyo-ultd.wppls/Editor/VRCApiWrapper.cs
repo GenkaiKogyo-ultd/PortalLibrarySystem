@@ -9,7 +9,7 @@ namespace Wacky612.PortalLibrarySystem2
 {
     static public class VRCApiWrapper
     {
-        static private string _thumbnailsFolder = "Assets/PortalLibrarySystem2/Thumbnails";
+        static private string _thumbnailsFolder = "Assets/PortalLibrarySystem/Thumbnails";
         
         static public async Task UpdateWorldInformation(World world, bool updateDescription)
         {
