@@ -9,9 +9,9 @@ namespace Wacky612.PortalLibrarySystem2
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public class CategoryButton : Button
     {
-        public void Initialize(int index, string text)
+        public void Initialize(int index, string text, bool isRolesDefined)
         {
-            base._Initialize(index, text);
+            base._Initialize(index, text, isRolesDefined);
         }
         
         public void OnClicked()

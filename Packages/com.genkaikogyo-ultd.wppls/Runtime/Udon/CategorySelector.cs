@@ -43,9 +43,10 @@ namespace Wacky612.PortalLibrarySystem2
                 _buttons[_pIndex]         = Instantiate(_buttonTemplate, _parentOfButtons);
                 _categoryButtons[_pIndex] = _buttons[_pIndex].GetComponent<CategoryButton>();
 
-                var text = DataUtil.ForceString(_pData.DataList[_pIndex].DataDictionary["Category"]);
+                var text           = DataUtil.ForceString(_pData.DataList[_pIndex].DataDictionary["Category"]);
+                var isRolesDefined = _pData.DataList[_pIndex].DataDictionary.ContainsKey("PermittedRoles");
 
-                _categoryButtons[_pIndex].Initialize(_pIndex, text);
+                _categoryButtons[_pIndex].Initialize(_pIndex, text, isRolesDefined);
 
                 if (_pIndex == 0)
                 {

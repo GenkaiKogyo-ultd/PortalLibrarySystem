@@ -22,11 +22,11 @@ namespace Wacky612.PortalLibrarySystem2
 
         private string   _id;
 
-        public void Initialize(int index, string text,
+        public void Initialize(int index, string text, bool isRolesDefined,
                                string id, int capacity, int recommendedCapacity,
                                bool pc, bool android, bool ios)
         {
-            base._Initialize(index, text);
+            base._Initialize(index, text, isRolesDefined);
 
             _capacity.GetComponent<TextMeshProUGUI>().text            = capacity.ToString();
             _recommendedCapacity.GetComponent<TextMeshProUGUI>().text = recommendedCapacity.ToString();

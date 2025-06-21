@@ -56,8 +56,10 @@ namespace Wacky612.PortalLibrarySystem2
                 var pc                  = IsSupported(_pData.DataList[_pIndex], "PC");
                 var android             = IsSupported(_pData.DataList[_pIndex], "Android");
                 var ios                 = IsSupported(_pData.DataList[_pIndex], "iOS");
+                var isRolesDefined      = _pData.DataList[_pIndex].DataDictionary.ContainsKey("PermittedRoles");
 
-                _worldButtons[_pIndex].Initialize(_pIndex, text, id, capacity, recommendedCapacity,
+                _worldButtons[_pIndex].Initialize(_pIndex, text, isRolesDefined,
+                                                  id, capacity, recommendedCapacity,
                                                   pc, android, ios);
 
                 if (_pIndex == 0)
