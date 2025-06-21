@@ -39,7 +39,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="ホーム"
-      description="Description will go into a meta tag in <head />">
+      description="Documentation for PortalLibrarySystem; World Asset for VRChat.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
