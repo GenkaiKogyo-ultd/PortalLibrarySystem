@@ -2,7 +2,15 @@
 
 ## VCC/ALCOM 経由でのインストール
 
-記載途中
+PortalLibrarySystem は、Ver.2 から [VRChat Creator Companion (VCC)][1] あるいは [ALCOM][2]
+経由でのインストールに対応しています。  
+下記のリンクから幻会興業のVPMレポジトリを追加することができます。
+
+- [幻会興業のVPMレポジトリを追加][3]
+
+[1]: https://vcc.docs.vrchat.com/
+[2]: https://vrc-get.anatawa12.com/alcom/
+[3]: vcc://vpm/addRepo?url=https://genkaiKogyo-ultd.github.io/vpm-repos/index.json
 
 ## TextMeshPro のインストールおよび設定
 
