@@ -61,7 +61,7 @@ MonoBehaviour:
       Data: 3|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Wacky612.PortalLibrarySystem2.WorldDataProcessor, Assembly-CSharp
+      Data: Wacky612.PortalLibrarySystem2.WorldDataProcessor, com.genkaikogyo-ultd.wppls.runtime
     - Name: 
       Entry: 8
       Data: 

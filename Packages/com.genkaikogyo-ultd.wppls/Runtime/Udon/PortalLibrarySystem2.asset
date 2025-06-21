@@ -61,7 +61,7 @@ MonoBehaviour:
       Data: 3|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Wacky612.PortalLibrarySystem2.PortalManager, Assembly-CSharp
+      Data: Wacky612.PortalLibrarySystem2.PortalManager, com.genkaikogyo-ultd.wppls.runtime
     - Name: 
       Entry: 8
       Data: 
@@ -127,7 +127,7 @@ MonoBehaviour:
       Data: 8|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Wacky612.PortalLibrarySystem2.WorldDataProcessor, Assembly-CSharp
+      Data: Wacky612.PortalLibrarySystem2.WorldDataProcessor, com.genkaikogyo-ultd.wppls.runtime
     - Name: 
       Entry: 8
       Data: 
@@ -181,7 +181,7 @@ MonoBehaviour:
       Data: 11|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Wacky612.PortalLibrarySystem2.CategorySelector, Assembly-CSharp
+      Data: Wacky612.PortalLibrarySystem2.CategorySelector, com.genkaikogyo-ultd.wppls.runtime
     - Name: 
       Entry: 8
       Data: 
@@ -235,7 +235,7 @@ MonoBehaviour:
       Data: 14|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Wacky612.PortalLibrarySystem2.WorldSelector, Assembly-CSharp
+      Data: Wacky612.PortalLibrarySystem2.WorldSelector, com.genkaikogyo-ultd.wppls.runtime
     - Name: 
       Entry: 8
       Data: 
@@ -289,7 +289,7 @@ MonoBehaviour:
       Data: 17|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Wacky612.PortalLibrarySystem2.Information, Assembly-CSharp
+      Data: Wacky612.PortalLibrarySystem2.Information, com.genkaikogyo-ultd.wppls.runtime
     - Name: 
       Entry: 8
       Data: 

@@ -553,7 +553,7 @@ MonoBehaviour:
       Data: 31|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Wacky612.PortalLibrarySystem2.CategoryButton[], Assembly-CSharp
+      Data: Wacky612.PortalLibrarySystem2.CategoryButton[], com.genkaikogyo-ultd.wppls.runtime
     - Name: 
       Entry: 8
       Data: 
