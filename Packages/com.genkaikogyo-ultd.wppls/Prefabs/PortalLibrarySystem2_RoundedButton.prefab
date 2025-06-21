@@ -4584,7 +4584,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_HandleRect: {fileID: 7220717745440273313}
   m_Direction: 2
-  m_Value: 0.99999976
+  m_Value: 1
   m_Size: 0.7291667
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -7177,7 +7177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Portal Library System ver 2.0.0-beta\n\u3000BOOTH\uFF1Ahttps://booth.pm/ja/items/6659099\n\u3000Author\uFF1A\u308F\u3063\u304D\u30FC
+  m_text: "Portal Library System ver 2.0.0\n\u3000BOOTH\uFF1Ahttps://booth.pm/ja/items/6659099\n\u3000Author\uFF1A\u308F\u3063\u304D\u30FC
     / Organization\uFF1A\u5E7B\u4F1A\u8208\u696D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d62e79dbecc169499d33732f7346416, type: 2}
@@ -10821,7 +10821,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_HandleRect: {fileID: 7310940590461847642}
   m_Direction: 2
-  m_Value: 0.99999976
+  m_Value: 1
   m_Size: 0.7291667
   m_NumberOfSteps: 0
   m_OnValueChanged:
