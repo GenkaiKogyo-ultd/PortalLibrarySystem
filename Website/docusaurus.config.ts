@@ -12,8 +12,8 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: 'https://GenkaiKogyo-ultd.github.io',
-  baseUrl: '/PortalLibrarySystem/',
+  url: 'https://wppls.genkaikogyo-ultd.com',
+  baseUrl: '/',
   organizationName: 'GenkaiKogyo-ultd',
   projectName: 'PortalLibrarySystem',
   trailingSlash: false,
