@@ -20,7 +20,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg ${styles.button}"
-            to="vcc://vpm/addRepo?url=https://genkaiKogyo-ultd.github.io/vpm-repos/index.json">
+            to="vcc://vpm/addRepo?url=https://vpm.genkaikogyo-ultd.com/index.json">
             ダウンロード（VCC経由）
           </Link>
           <Link

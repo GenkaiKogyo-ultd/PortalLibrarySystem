@@ -10,7 +10,7 @@ PortalLibrarySystem は、Ver.2 から [VRChat Creator Companion (VCC)][1] あ�
 
 [1]: https://vcc.docs.vrchat.com/
 [2]: https://vrc-get.anatawa12.com/alcom/
-[3]: vcc://vpm/addRepo?url=https://genkaiKogyo-ultd.github.io/vpm-repos/index.json
+[3]: vcc://vpm/addRepo?url=https://vpm.genkaikogyo-ultd.com/index.json
 
 ## TextMeshPro のインストールおよび設定
 
