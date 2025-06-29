@@ -78,15 +78,15 @@ Roles の中身は、以下のような形式になります。
 ```
 {
     "RoleName": "ロール1",
-    "DisplayNames" ["ユーザー1", "ユーザー2"]
+    "DisplayNames": ["ユーザー1", "ユーザー2"]
 },
 {
     "RoleName": "ロール2",
-    "DisplayNames" ["ユーザー1", "ユーザー3"]
+    "DisplayNames": ["ユーザー1", "ユーザー3"]
 },
 {
     "RoleName": "ロール3",
-    "DisplayNames" ["ユーザー1", "ユーザー4"]
+    "DisplayNames": ["ユーザー1", "ユーザー4"]
 }
 ```
 
