@@ -65,6 +65,9 @@ namespace Wacky612.PortalLibrarySystem2
                                           DataUtil.ForceValue(d, "Roles").DataList[i]);
                     }
                 }
+
+                so.ApplyModifiedProperties();
+                so.Update();
             }
         }
     }
@@ -78,11 +81,16 @@ namespace Wacky612.PortalLibrarySystem2
 
         public StaticWorldDataEditorContent(StaticWorldData staticWorldData)
         {
-            var categorys = staticWorldData.GetComponentInChildren<Categorys>();
-            var roles     = staticWorldData.GetComponentInChildren<Roles>();
-            
-            _staticWorldData         = staticWorldData;
-            _serializedObject        = new SerializedObject(staticWorldData);
+            _staticWorldData  = staticWorldData;
+            _serializedObject = new SerializedObject(staticWorldData);
+            GenerateReorderableList();
+        }
+
+        public void GenerateReorderableList()
+        {
+            var categorys = _staticWorldData.GetComponentInChildren<Categorys>();
+            var roles     = _staticWorldData.GetComponentInChildren<Roles>();
+
             _categoryReorderableList = new CategoryReorderableList(categorys);
             _roleReorderableList     = new RoleReorderableList(roles);
         }
@@ -122,7 +130,11 @@ namespace Wacky612.PortalLibrarySystem2
 
             if (GUILayout.Button("JSONからインポート"))
             {
-                EditorApplication.delayCall += () => StaticWorldDataEditor.ImportFromJson(_staticWorldData);
+                EditorApplication.delayCall += () =>
+                {
+                    StaticWorldDataEditor.ImportFromJson(_staticWorldData);
+                    GenerateReorderableList();
+                };
             }
 
             _serializedObject.ApplyModifiedProperties();
