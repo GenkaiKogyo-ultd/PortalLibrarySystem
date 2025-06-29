@@ -12,4 +12,4 @@
 - ドキュメントは[こちら][2]にあります。
 
 [1]: https://vrchat.com/home/world/wrld_bb6b76c2-d67e-43c8-b268-3b17ff3f79a7/info
-[2]: https://genkaikogyo-ultd.github.io/PortalLibrarySystem/
+[2]: https://wppls.genkaikogyo-ultd.com
