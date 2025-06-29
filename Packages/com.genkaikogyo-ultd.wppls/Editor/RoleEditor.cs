@@ -13,7 +13,7 @@ namespace Wacky612.PortalLibrarySystem2
         private SerializedProperty _roleName;
         private ReorderableList    _displayNamesReorderableList;
 
-        public override async void OnInspectorGUI()
+        public override void OnInspectorGUI()
         {
             serializedObject.Update();
 
